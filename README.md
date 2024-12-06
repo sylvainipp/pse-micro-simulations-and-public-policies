@@ -105,16 +105,18 @@ You can also have a look at one of these Python tutorials:
 
 - [Python crash course with exercises](./notebooks/python_crash_course_student.ipynb). [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sylvainipp/pse-micro-simulations-and-public-policies.git/master?labpath=notebooks%2Fpython_crash_course_student.ipynb)
 
+- [Numpy and pandas](./notebooks/numpy-and-pandas.ipynb). [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sylvainipp/pse-micro-simulations-and-public-policies/HEAD?labpath=notebooks%2Fnumpy-and-pandas.ipynb)
+
 
 - [Explore the Senegalese tax and benefits system](./notebooks/Senegal-student.ipynb). [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sylvainipp/pse-micro-simulations-and-public-policies.git/master?labpath=notebooks%2FSenegal-student.ipynb)
 
 
 ## Before second session
 
-- [Complete the exploration of the Senegalese tax and benefits system by coding a loop for the gain of having one more child depending on the income for different number of children](./notebooks/Senegal-student.ipynb). [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sylvainipp/pse-micro-simulations-and-public-policies.git/master?labpath=notebooks%2FSenegal-student.ipynb)
+<!--- [Complete the exploration of the Senegalese tax and benefits system by coding a loop for the gain of having one more child depending on the income for different number of children](./notebooks/Senegal-student.ipynb). [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sylvainipp/pse-micro-simulations-and-public-policies.git/master?labpath=notebooks%2FSenegal-student.ipynb)
 
 - [You can look at the correction of the first part of the notebook (Warning, I included the last loop, try not to use it while searching !)](./notebooks/Senegal-exercices-solutions1.ipynb).
-
+-->
 - Install the survey capabilities of openfisca-senegal:
 ```
 pip install openfisca-senegal[survey]
@@ -125,7 +127,7 @@ pip install openfisca-senegal[survey]
 - Download the [the second session notebook](./notebooks/Fake-data-Senegal.ipynb). [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sylvainipp/pse-micro-simulations-and-public-policies.git/master?labpath=notebooks%2FFake-data-Senegal.ipynb)
 
 
-
+<!--
 ## After the second session:
 
 You now have access to the complete notebooks with exercise solutions
@@ -133,4 +135,4 @@ You now have access to the complete notebooks with exercise solutions
 
 
  - Download the [the second session notebook with exercises solutions](./notebooks/Fake-data-Senegal-Correction.ipynb). [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sylvainipp/pse-micro-simulations-and-public-policies/HEAD?labpath=notebooks%2FFake-data-Senegal-Correction.ipynb)
-
+-->
