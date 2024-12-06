@@ -21,7 +21,7 @@ You can install a minimal Python or use Anaconda
 
 ##### Minimal install
 
-Start by downloading Python 3.9 from [this page](https://www.python.org/downloads/).
+Start by downloading Python 3.11 from [this page](https://www.python.org/downloads/).
 
 *Be careful to download the right version, i.e at least a Python 3 version !*
 
@@ -29,12 +29,12 @@ Install the software.
 
 ##### Anaconda
 
-Download Anaconda for Python 3.9 from [this page](https://www.anaconda.com/products/individual) and install the software.
+Download Anaconda for Python 3.11 from [this page](https://www.anaconda.com/products/individual) and install the software.
 
 Create an environment for this class
 
 ```shell
-conda create --name ppd python=3.9
+conda create --name ppd python=3.11
 ```
 
 #### Install additional packages.
@@ -105,16 +105,18 @@ You can also have a look at one of these Python tutorials:
 
 - [Python crash course with exercises](./notebooks/python_crash_course_student.ipynb). [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sylvainipp/pse-micro-simulations-and-public-policies.git/master?labpath=notebooks%2Fpython_crash_course_student.ipynb)
 
+- [Numpy and pandas](./notebooks/numpy-and-pandas.ipynb). [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sylvainipp/pse-micro-simulations-and-public-policies/HEAD?labpath=notebooks%2Fnumpy-and-pandas.ipynb)
+
 
 - [Explore the Senegalese tax and benefits system](./notebooks/Senegal-student.ipynb). [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sylvainipp/pse-micro-simulations-and-public-policies.git/master?labpath=notebooks%2FSenegal-student.ipynb)
 
 
 ## Before second session
 
-- [Complete the exploration of the Senegalese tax and benefits system by coding a loop for the gain of having one more child depending on the income for different number of children](./notebooks/Senegal-student.ipynb). [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sylvainipp/pse-micro-simulations-and-public-policies.git/master?labpath=notebooks%2FSenegal-student.ipynb)
+<!--- [Complete the exploration of the Senegalese tax and benefits system by coding a loop for the gain of having one more child depending on the income for different number of children](./notebooks/Senegal-student.ipynb). [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sylvainipp/pse-micro-simulations-and-public-policies.git/master?labpath=notebooks%2FSenegal-student.ipynb)
 
 - [You can look at the correction of the first part of the notebook (Warning, I included the last loop, try not to use it while searching !)](./notebooks/Senegal-exercices-solutions1.ipynb).
-
+-->
 - Install the survey capabilities of openfisca-senegal:
 ```
 pip install openfisca-senegal[survey]
@@ -125,27 +127,7 @@ pip install openfisca-senegal[survey]
 - Download the [the second session notebook](./notebooks/Fake-data-Senegal.ipynb). [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sylvainipp/pse-micro-simulations-and-public-policies.git/master?labpath=notebooks%2FFake-data-Senegal.ipynb)
 
 
-## For MAC OS users
-
-You might need to deactivate your root environment before creating the new one (otherwise, it is created on top on the root environment that is Python 3.11 and not 3.9). To achieve this, you will need to type in an anaconda shell "conda deactivate" until the parentheses in the left disappear (it should start with something like "(base)<<<", and you want the (base) part to disappear). Then, try to create your new environment 3.9 as above, and to run Jupyter. Hopefully this will work.
-If you have a "build wheel" error, you might need to run in your command prompt :
-
-conda create --name new_name python=3.9
-
-conda activate new_name
-
-conda install numpy=1.20
-
-conda install hdf5
-
-conda install matplotlib jupyter
-
-jupyter notebook
-
-and then to launch the notebook's pip install cell.
-
-
-
+<!--
 ## After the second session:
 
 You now have access to the complete notebooks with exercise solutions
@@ -153,4 +135,4 @@ You now have access to the complete notebooks with exercise solutions
 
 
  - Download the [the second session notebook with exercises solutions](./notebooks/Fake-data-Senegal-Correction.ipynb). [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sylvainipp/pse-micro-simulations-and-public-policies/HEAD?labpath=notebooks%2FFake-data-Senegal-Correction.ipynb)
-
+-->
