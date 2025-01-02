@@ -34,7 +34,7 @@ Download Anaconda for Python 3.11 from [this page](https://www.anaconda.com/prod
 Create an environment for this class
 
 ```shell
-conda create --name ppd python=3.11
+conda create --name pse python=3.11
 ```
 
 #### Install additional packages.
@@ -48,7 +48,7 @@ pip install matplotlib jupyter
 or if you use Anaconda
 
 ```shell
-activate ppd
+activate pse
 conda install matplotlib jupyter
 ```
 
