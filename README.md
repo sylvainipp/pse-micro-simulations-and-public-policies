@@ -52,6 +52,12 @@ activate pse
 conda install matplotlib jupyter
 ```
 
+- Install the survey capabilities of openfisca-senegal:
+  
+```
+pip install openfisca-senegal[survey]
+```
+
 You should be able to use Jupyter Notebook wich is now installed on your computer.
 
 ```
@@ -117,10 +123,7 @@ You can also have a look at one of these Python tutorials:
 
 - [You can look at the correction of the first part of the notebook (Warning, I included the last loop, try not to use it while searching !)](./notebooks/Senegal-exercices-solutions1.ipynb).
 -->
-- Install the survey capabilities of openfisca-senegal:
-```
-pip install openfisca-senegal[survey]
-```
+
 
 - We will manipulate [dataframes](http://pandas.pydata.org/): learn how to use them by having a look at this [introduction](http://pandas.pydata.org/pandas-docs/stable/10min.html)
 
