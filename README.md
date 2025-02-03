@@ -58,6 +58,21 @@ conda install matplotlib jupyter
 pip install openfisca-senegal[survey]
 ```
 
+If you have an error, you can try : 
+
+```
+ensurepip --upgrade
+pip install --upgrade setuptools
+pip install openfisca-senegal[survey]
+```
+
+or 
+
+```
+pip install numpy==1.26.4
+pip install openfisca-senegal[survey]
+```
+
 You should be able to use Jupyter Notebook wich is now installed on your computer.
 
 ```
