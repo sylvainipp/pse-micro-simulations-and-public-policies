@@ -145,7 +145,7 @@ You can also have a look at one of these Python tutorials:
 - Download the [the second session notebook](./notebooks/Fake-data-Senegal.ipynb). [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sylvainipp/pse-micro-simulations-and-public-policies.git/master?labpath=notebooks%2FFake-data-Senegal.ipynb)
 
 
-<!--
+
 ## After the second session:
 
 You now have access to the complete notebooks with exercise solutions
@@ -153,4 +153,4 @@ You now have access to the complete notebooks with exercise solutions
 
 
  - Download the [the second session notebook with exercises solutions](./notebooks/Fake-data-Senegal-Correction.ipynb). [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sylvainipp/pse-micro-simulations-and-public-policies/HEAD?labpath=notebooks%2FFake-data-Senegal-Correction.ipynb)
--->
+
