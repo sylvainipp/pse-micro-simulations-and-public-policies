@@ -41,6 +41,20 @@ conda create --name pse python=3.11
 
 Open a console/terminal/command tool on your computer and type:
 
+```
+pip install openfisca-senegal[notebook]
+pip install openfisca-survey-manager==2.3.0
+```
+
+or if you use Anaconda
+
+```shell
+activate pse
+pip install openfisca-senegal[notebook]
+pip install openfisca-survey-manager==2.3.0
+```
+
+<!--
 ```shell
 pip install matplotlib jupyter
 ```
@@ -57,20 +71,22 @@ conda install matplotlib jupyter
 ```
 pip install openfisca-senegal[survey]
 ```
-
+-->
 If you have an error, you can try : 
 
 ```
 ensurepip --upgrade
 pip install --upgrade setuptools
-pip install openfisca-senegal[survey]
+pip install openfisca-senegal[notebook]
+pip install openfisca-survey-manager==2.3.0
 ```
 
 or 
 
 ```
 pip install numpy==1.26.4
-pip install openfisca-senegal[survey]
+pip install openfisca-senegal[notebook]
+pip install openfisca-survey-manager==2.3.0
 ```
 
 You should be able to use Jupyter Notebook wich is now installed on your computer.
@@ -145,7 +161,7 @@ You can also have a look at one of these Python tutorials:
 - Download the [the second session notebook](./notebooks/Fake-data-Senegal.ipynb). [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sylvainipp/pse-micro-simulations-and-public-policies.git/master?labpath=notebooks%2FFake-data-Senegal.ipynb)
 
 
-
+<!--
 ## After the second session:
 
 You now have access to the complete notebooks with exercise solutions
@@ -153,4 +169,4 @@ You now have access to the complete notebooks with exercise solutions
 
 
  - Download the [the second session notebook with exercises solutions](./notebooks/Fake-data-Senegal-Correction.ipynb). [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sylvainipp/pse-micro-simulations-and-public-policies/HEAD?labpath=notebooks%2FFake-data-Senegal-Correction.ipynb)
-
+-->
