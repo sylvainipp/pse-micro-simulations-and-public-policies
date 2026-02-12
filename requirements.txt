@@ -1,3 +1,3 @@
 matplotlib
 pandas
-openfisca-senegal[noteboo]>=0.11.2
+openfisca-senegal[notebook]>=0.11.2
