@@ -1,2 +1,1 @@
-python::3.11
 openfisca-senegal[notebook]>=0.11.2
