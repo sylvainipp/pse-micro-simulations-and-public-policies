@@ -1,1 +1,2 @@
 openfisca-senegal[notebook]>=0.11.2
+openfisca-survey-manager==2.3.0
